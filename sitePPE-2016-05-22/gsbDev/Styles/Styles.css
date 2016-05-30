@@ -1,0 +1,173 @@
+html {
+	font-size: 100%;
+}
+body {
+	margin: 0;
+	padding: 10px 20px;
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-size: .8em;
+	line-height: 1.25;
+        color: #F0E39E;
+	background: #305983;
+        
+}
+
+#global {
+	width: 750px;
+	margin-left: 20px;
+	margin-right: auto; /* Voir -> Note 1 ci-dessous */
+}
+#entete {
+	padding: 15px 20px 10px 0;
+}
+#entete h1 {
+	margin: 0;
+}
+
+#entete .sous-titre {
+	margin: 4px 0 15px 0;
+}
+
+
+h2 {font-size: 1.8em;}
+h3 {
+    
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#contenu {
+	color: #000000;
+	background: #9FC5EB;
+        
+}
+#RetourHaut{
+    text-align: center;
+    
+}
+#contenu a {
+	color: #332510;
+}
+#contenu a:hover, #contenu a:focus {
+	color: #6E5122;
+}
+ul {
+	list-style: square;
+        margin: .75em 0 .75em 24px;
+	padding: 0;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+    padding : 40px;
+    text-align: justify;
+}
+
+li p, blockquote p {
+	margin: .5em 0;
+}
+
+
+blockquote, q {
+	font-size: 1.1em;
+	font-style: italic;
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+}
+blockquote {
+	margin: .75em 0 .75em 24px;
+}
+cite {
+	font-style: italic;
+}
+
+#navigation {
+	background: #070E1B;
+}
+#navigation a {
+	color: #FF6533;
+        padding: 6px;
+	line-height: 1.5;
+	font-size: .9em;
+	text-decoration: none;
+        display:block;
+ float:left;   
+ width:100px;
+ line-height:50px; /*hauteur de l'image de fond*/
+ text-decoration:none;
+ text-align:center;
+}
+
+#navigation {
+	padding: 12px 15px;
+}
+#navigation ul {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#navigation li {
+    margin-left: 180px;
+    
+    
+    
+}
+#navigation a{
+    
+    background-color: black;
+}
+
+
+/* Liens */
+a {
+	
+	text-decoration: underline;
+        color: #FF6533;
+}
+a:hover, a:focus {
+	
+        color: #FF4C00;
+}
+a img {
+	border: none;
+}
+
+
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: dimgray;
+}
+
+
+
+#pied {
+	color: #E6A948;
+	background: #070E1B;
+        padding: 15px 20px;
+	font-size: .85em;
+}
+#pied p {
+	margin: .5em 0;
+}
+#copyright {
+	margin: 0px 0 5px 0;
+	text-align: right;
+	font-size: .8em;
+	color: #9FC5EB;
+}
+#copyright a {
+	color: #9FC5EB;
+	text-decoration: none;
+}
+#copyright a:hover, #copyright a:focus {
+	text-decoration: underline;
+}

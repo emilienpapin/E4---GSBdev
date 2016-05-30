@@ -1,0 +1,58 @@
+
+a {
+	
+}
+a:hover, a:focus {
+	
+}
+strong {
+	
+}
+
+
+
+
+/* Contenu principal */
+
+#contenu strong {
+	color: #181A12;
+}
+
+/* Pied de page */
+
+
+
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+	
+}
+
+
+/* En-tête */
+
+
+/* Menu de navigation */
+
+
+/* Contenu */
+#contenu {
+	padding: 10px 20px;
+}
+#contenu > :first-child {
+	margin-top: 10px;
+}
+#contenu p, #contenu li {
+	line-height: 1.5;
+}
+
+/* Pied de page */
+#pied {
+	
+}
+
+#copyright {
+	
+}
+
